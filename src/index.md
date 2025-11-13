@@ -1,7 +1,7 @@
 ---
 layout: base
 title: IA-ismo LAB
-description: Laboratorio de pensamiento crítico en la intersección entre inteligencia artificial y humanidades
+description: Asociación sin ánimo de lucro dedicada a la investigación científica, divulgación y formación técnica especializada en Inteligencia Artificial. Promovemos el pensamiento crítico en la intersección entre IA, humanidades y ciencias aplicadas.
 ---
 
 # Un Laboratorio IA-ismo
