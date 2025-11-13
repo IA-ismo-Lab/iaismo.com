@@ -1,0 +1,43 @@
+---
+layout: base
+---
+
+<article class="post">
+  
+  <nav class="breadcrumb">
+    <a href="/">⚠️ IA-ismo LAB</a>
+    <span class="breadcrumb-separator">/</span>
+    <a href="/articulos">ARTÍCULOS</a>
+    <span class="breadcrumb-separator">/</span>
+    <span>{{ title }}</span>
+  </nav>
+  
+  <header class="post-header">
+    <h1>{{ title }}</h1>
+    <div class="post-meta">
+      <time class="post-date" datetime="{{ date }}">
+        {{ date | date("dd/MM/yyyy") }}
+      </time>
+      {% if author %}
+      <span class="post-author"> • {{ author }}</span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+
+  {% if tags %}
+  <footer class="post-footer">
+    <div class="post-tags">
+      {% for tag in tags %}
+        {% if tag != "posts" %}
+        <span class="tag">#{{ tag }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </footer>
+  {% endif %}
+
+</article>

@@ -1,0 +1,38 @@
+{
+  "name": "iaismo.com",
+  "version": "1.0.0",
+  "description": "IA-ismo LAB — Laboratorio de pensamiento crítico en la intersección entre inteligencia artificial y humanidades",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "npm run serve",
+    "clean": "rm -rf docs",
+    "deploy": "npm run build && git add docs && git commit -m 'Deploy site' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IA-ismo-Lab/iaismo.com.git"
+  },
+  "keywords": [
+    "ia",
+    "inteligencia-artificial",
+    "humanidades",
+    "filosofia",
+    "pensamiento-critico",
+    "iaismo"
+  ],
+  "author": "IA-ismo LAB",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IA-ismo-Lab/iaismo.com/issues"
+  },
+  "homepage": "https://iaismo.com",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "dependencies": {
+    "luxon": "^3.7.2"
+  }
+}
