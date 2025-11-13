@@ -44,7 +44,7 @@ No es inteligencia artificial *aplicada* a humanidades. Es un territorio nuevo d
 
 ### V. Sin ánimo de lucro, con ánimo de lucidez
 
-IA-ismo LAB no vende cursos, no promete empleabilidad, no gamifica el conocimiento. Somos un laboratorio de pensamiento, no una startup disfrazada de academia.
+IA-ismo LAB  Somos un laboratorio de pensamiento .
 
 </div>
 

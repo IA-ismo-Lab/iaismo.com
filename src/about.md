@@ -8,7 +8,7 @@ description: Quiénes somos y qué hacemos en IA-ismo LAB
 
 ## ¿Qué es IA-ismo LAB?
 
-**IA-ismo LAB** es un laboratorio de pensamiento crítico en la intersección entre inteligencia artificial y humanidades. No somos un blog, no vendemos cursos, no prometemos empleabilidad.
+**IA-ismo LAB** es un laboratorio de pensamiento crítico en la intersección entre inteligencia artificial y humanidades. No somos un blog, no vendemos proyectos, no prometemos empleabilidad.
 
 Somos una entidad sin ánimo de lucro dedicada a:
 

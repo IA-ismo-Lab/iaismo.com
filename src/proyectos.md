@@ -1,10 +1,10 @@
 ---
 layout: base
-title: Cursos
+title: proyectos
 description: Formación crítica en IA-ismo LAB
 ---
 
-# Cursos
+# proyectos
 
 **Sección en desarrollo.**
 
