@@ -1,7 +1,7 @@
 ---
 layout: base
 title: IA-ismo LAB
-description: Asociación sin ánimo de lucro dedicada a la investigación científica, divulgación y formación técnica especializada en Inteligencia Artificial. Promovemos el pensamiento crítico en la intersección entre IA, humanidades y ciencias aplicadas.
+description: Entidad sin ánimo de lucro dedicada a la investigación científica aplicada en inteligencia artificial, la divulgación mediante la newsletter IA-ismo, y la formación técnica especializada en alfabetización digital y científica.
 ---
 
 # Un Laboratorio IA-ismo
@@ -9,7 +9,7 @@ description: Asociación sin ánimo de lucro dedicada a la investigación cient�
 **El archivo canónico del pensamiento IAista.**
 
 Filosofía, crítica, neologismos y arquitectura líquida.  
-Una entidad sin ánimo de lucro que cruza inteligencia artificial y humanidades.
+Organización sin ánimo de lucro que cruza inteligencia artificial y humanidades.
 
 > "Esto no es un blog. Es una excavación digital."
 
