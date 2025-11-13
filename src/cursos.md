@@ -6,17 +6,18 @@ description: Formación crítica en IA-ismo LAB
 
 # Cursos
 
-**Sección en construcción.**
+**Sección en desarrollo.**
 
-IA-ismo LAB no vende cursos de empleabilidad ni promesas de productividad. Cuando tengamos algo que enseñar de forma rigurosa, estructurada y coherente con nuestra filosofía, lo publicaremos aquí.
+IA-ismo LAB no ofrece formación orientada a empleabilidad ni certificaciones técnicas. Los programas formativos, cuando estén disponibles, responderán a criterios de investigación académica y rigor metodológico.
 
-Mientras tanto:
+Actualmente en preparación:
 
-- Lee los [Artículos](/articulos)
-- Explora los [Manifiestos](/manifiestos)
-- Piensa críticamente
+- Seminarios de investigación sobre IA y epistemología
+- Talleres metodológicos de análisis crítico
+- Programas de investigación colaborativa
+
+Consulta el archivo de [Artículos](/articulos) y los [Manifiestos](/manifiestos) para comprender el marco teórico del laboratorio.
 
 ---
 
-> "No gamificamos el conocimiento."  
-> — IA-ismo LAB
+> "La formación académica requiere tiempo de investigación y desarrollo metodológico."

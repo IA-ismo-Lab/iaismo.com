@@ -25,6 +25,7 @@ module.exports = function(eleventyConfig) {
       input: "src",
       output: "docs"
     },
+    pathPrefix: "/iaismo.com/",
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk"
   };

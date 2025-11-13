@@ -12,7 +12,7 @@ Pensamiento IAista en formato visual. Conferencias, experimentos, disonancias te
   
   <article class="video-card">
     <video controls class="card-video">
-      <source src="/videos/Technological_Dissonance.mp4" type="video/mp4">
+      <source src="{{ '/videos/Technological_Dissonance.mp4' | url }}" type="video/mp4">
       Tu navegador no soporta el elemento video.
     </video>
     <div class="video-card-content">
@@ -27,27 +27,27 @@ Pensamiento IAista en formato visual. Conferencias, experimentos, disonancias te
   <!-- Placeholder para futuros videos -->
   <article class="video-card" style="opacity: 0.4;">
     <div class="card-video" style="display: flex; align-items: center; justify-content: center; background: var(--gris-medio); height: 200px; color: var(--gris-claro); font-family: var(--fuente-mono);">
-      Próximamente
+      En desarrollo
     </div>
     <div class="video-card-content">
-      <h2 class="video-card-title">Próximo video</h2>
+      <h2 class="video-card-title">Archivo en construcción</h2>
       <p class="video-card-description">
-        Más contenido llegará cuando tenga algo que decir.
+        Material audiovisual en fase de producción y revisión académica.
       </p>
-      <p class="card-meta">TBD</p>
+      <p class="card-meta">En proceso</p>
     </div>
   </article>
 
   <article class="video-card" style="opacity: 0.4;">
     <div class="card-video" style="display: flex; align-items: center; justify-content: center; background: var(--gris-medio); height: 200px; color: var(--gris-claro); font-family: var(--fuente-mono);">
-      Próximamente
+      En desarrollo
     </div>
     <div class="video-card-content">
-      <h2 class="video-card-title">Próximo video</h2>
+      <h2 class="video-card-title">Archivo en construcción</h2>
       <p class="video-card-description">
-        Aquí no hacemos contenidos, hacemos tiempo.
+        Documentación visual de investigaciones en curso.
       </p>
-      <p class="card-meta">TBD</p>
+      <p class="card-meta">En proceso</p>
     </div>
   </article>
 
@@ -57,10 +57,10 @@ Pensamiento IAista en formato visual. Conferencias, experimentos, disonancias te
 
 ## Sobre el archivo visual
 
-Los videos de IA-ismo LAB no son tutoriales ni charlas TED. Son **piezas de pensamiento** en formato audiovisual: experimentos, provocaciones, arqueología digital en movimiento.
+Los videos de IA-ismo LAB documentan investigaciones, experimentos metodológicos y análisis críticos en formato audiovisual. Material académico orientado al pensamiento riguroso, no a la divulgación masiva.
 
 **Formato:** MP4, descargables, sin DRM, sin trackers.  
 **Licencia:** Creative Commons BY-NC-SA 4.0  
-**Duración:** Variable (de 2 a 20 minutos, nunca más)
+**Duración:** Variable según complejidad del objeto de estudio.
 
-Si tienes problemas reproduciendo algún video, escríbenos a [contacto@iaismo.com](mailto:contacto@iaismo.com).
+Consultas técnicas: [contacto@iaismo.com](mailto:contacto@iaismo.com).

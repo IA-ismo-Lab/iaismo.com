@@ -13,7 +13,7 @@
   
   <title>{{ title }}{% if title != 'IA-ismo LAB' %} | ⚠️ IA-ismo LAB{% endif %}</title>
   
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚠️</text></svg>">
 </head>
 <body>
@@ -22,15 +22,15 @@
     <div class="header-content">
       <div class="site-branding">
         <h1 class="site-title">
-          <a href="/" title="⚠️ IA-ismo LAB">⚠️ IA-ismo LAB</a>
+          <a href="{{ '/' | url }}" title="⚠️ IA-ismo LAB">⚠️ IA-ismo LAB</a>
         </h1>
         <p class="site-tagline">» Archivo • Pensamiento • Crítica</p>
       </div>
       <nav class="nav-main">
-        <a href="/" {% if page.url == "/" %}class="active"{% endif %}>INICIO</a>
-        <a href="/cursos" {% if page.url == "/cursos/" %}class="active"{% endif %}>CURSOS</a>
-        <a href="/articulos" {% if '/articulos' in page.url or '/posts' in page.url %}class="active"{% endif %}>ARTÍCULOS</a>
-        <a href="/videos" {% if page.url == "/videos/" %}class="active"{% endif %}>VÍDEOS</a>
+        <a href="{{ '/' | url }}" {% if page.url == "/" %}class="active"{% endif %}>INICIO</a>
+        <a href="{{ '/cursos' | url }}" {% if page.url == "/cursos/" %}class="active"{% endif %}>CURSOS</a>
+        <a href="{{ '/articulos' | url }}" {% if '/articulos' in page.url or '/posts' in page.url %}class="active"{% endif %}>ARTÍCULOS</a>
+        <a href="{{ '/videos' | url }}" {% if page.url == "/videos/" %}class="active"{% endif %}>VÍDEOS</a>
       </nav>
     </div>
   </header>

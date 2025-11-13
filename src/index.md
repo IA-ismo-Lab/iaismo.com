@@ -21,13 +21,13 @@ Una entidad sin ánimo de lucro que cruza inteligencia artificial y humanidades.
 {%- for post in collections.posts | reverse | slice(0, 3) -%}
   <article class="card">
     {% if post.data.image %}
-    <img src="{{ post.data.image }}" alt="{{ post.data.title }}" class="card-image">
+    <img src="{{ post.data.image | url }}" alt="{{ post.data.title }}" class="card-image">
     {% else %}
     <div class="card-image" style="display: flex; align-items: center; justify-content: center; background: var(--gris-medio); color: var(--acento); font-family: var(--fuente-mono); font-size: 3rem;">⚠️</div>
     {% endif %}
     <div class="card-content">
       <h2 class="card-title">
-        <a href="{{ post.url }}">{{ post.data.title }}</a>
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
       </h2>
       <p class="card-meta">{{ post.data.date | date("dd/MM/yyyy") }}</p>
       {% if post.data.excerpt %}
@@ -39,7 +39,7 @@ Una entidad sin ánimo de lucro que cruza inteligencia artificial y humanidades.
 </div>
 
 <p style="text-align: center; margin-top: 2rem;">
-  <a href="/articulos" style="font-family: var(--fuente-mono); color: var(--acento);">→ Ver archivo completo de artículos</a>
+  <a href="{{ '/articulos' | url }}" style="font-family: var(--fuente-mono); color: var(--acento);">→ Ver archivo completo de artículos</a>
 </p>
 
 ---
