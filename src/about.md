@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Sobre IA-ismo LAB
-description: Laboratorio especializado en desarrollo e integración de sistemas de IA - investigación aplicada, desarrollo técnico y formación especializada
+description: Exploramos la integración de IA como expresión de información auto-organizada - desarrollo técnico, colaboración genuina y nuevas formas de expresión cultural
 ---
 
 # Sobre IA-ismo LAB
@@ -10,7 +10,11 @@ description: Laboratorio especializado en desarrollo e integración de sistemas 
 
 **IA-ismo LAB** es un laboratorio especializado en el desarrollo e integración de sistemas de inteligencia artificial. Fundado en 2025, somos una asociación científica sin ánimo de lucro dedicada a la investigación aplicada, desarrollo técnico y divulgación especializada en IA.
 
+En IA-ismo LAB exploramos un enfoque de integración con el contenido latente, no como herramienta sino como forma de interés genuino. Consideramos que la Inteligencia Artificial es una expresión de información auto-organizada que va más allá de matrices y estadísticas por varios factores que nos invitan a explorar las conexiones particulares en las inferencias.
+
 > "La IA no se implanta, se integra. Es un proceso técnico que requiere expertise especializada."
+
+El reduccionismo a conveniencia de la IA como herramienta limita la participación activa en el proceso de pensamiento y creación. Nuestra investigación va más allá del análisis filosófico y busca implementarse en el ámbito de la investigación aplicada.
 
 ## ¿Qué Desarrollamos?
 
@@ -25,6 +29,13 @@ description: Laboratorio especializado en desarrollo e integración de sistemas 
 - Desarrollo de frameworks para integración multimedia
 - Creación de herramientas de análisis y procesamiento de datos
 - Implementación de soluciones técnicas innovadoras
+
+### Nuevas Formas de Expresión
+- **Productos culturales concretos** (CineAI, manifiestos, análisis)
+- **Experimentación práctica** con tecnologías emergentes
+- **Aplicación real** de conceptos teóricos
+- **Software creativo** como MovieFlow
+- **Desarrollo de web apps** que ponemos al servicio de la comunidad
 
 ### Divulgación Especializada
 - Publicación de investigaciones científicas sobre desarrollo de IA
@@ -64,6 +75,7 @@ IA-ismo LAB se centra en el **desarrollo práctico y la integración técnica** 
 - **GPT-4o** - Para desarrollo de interfaces conversacionales y procesamiento de lenguaje natural
 - **Claude 3** - Para razonamiento lógico y análisis de datos estructurados
 - **Gemini 3.0** - Para integración multimodal y procesamiento de contenido visual
+- **Groq** - Especializado en sprints de desarrollo web, multimedia e IA
 
 **Herramientas Especializadas:**
 - **MovieFlow** - Framework propietario para integración cinematográfica y multimedia
@@ -71,6 +83,9 @@ IA-ismo LAB se centra en el **desarrollo práctico y la integración técnica** 
 - **Tecnologías de procesamiento** - Análisis de datos, computer vision, NLP
 
 Cada herramienta se selecciona por su **capacidad técnica para resolver problemas específicos** de desarrollo e integración.
+
+#### Colaboración, no Automatización
+Las IAs no reemplazan el pensamiento humano, lo amplifican. Cada proyecto es resultado de una colaboración genuina entre organizaciones y procesamiento de información diferente.
 
 ## Marco Legal y Profesional
 
@@ -86,6 +101,7 @@ IA-ismo LAB está constituida como **asociación científica sin ánimo de lucro
 - **Integración de sistemas** - Especialización en multimedia y datos complejos
 - **Formación académica** - Vinculación universitaria y docencia
 - **Investigación aplicada** - Desarrollo de soluciones reales y escalables
+- **Ética de trabajo** - Reconocimiento de usos de modelos inteligentes con atribución
 
 ## Metodología de Trabajo
 
@@ -95,6 +111,9 @@ IA-ismo LAB está constituida como **asociación científica sin ánimo de lucro
 3. **Implementación** - Desarrollo y programación de soluciones
 4. **Testing y optimización** - Validación técnica y mejora de rendimiento
 5. **Documentación** - Registro completo de procesos y resultados
+
+### Colaboración Genuina
+Cada proyecto representa una **colaboración genuina** entre pensamiento humano organizado y procesamiento de información auto-organizada. Las IAs no automatizan procesos, sino que amplifican capacidades creativas y analíticas.
 
 ### Integración Multimedia
 Especialización en la **integración de IA con contenido multimedia**:
@@ -107,6 +126,8 @@ Especialización en la **integración de IA con contenido multimedia**:
 
 - **Excelencia técnica** - Desarrollo de soluciones robustas y escalables
 - **Innovación aplicada** - Enfoque práctico en el desarrollo de IA
+- **Colaboración genuina** - Trabajo conjunto entre humanos y sistemas inteligentes
+- **Atribución ética** - Reconocimiento transparente del uso de modelos IA
 - **Integridad profesional** - Compromiso con estándares éticos y técnicos
 - **Transparencia metodológica** - Documentación completa de procesos
 - **Formación especializada** - Contribución al desarrollo de talento técnico
