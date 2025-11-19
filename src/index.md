@@ -42,6 +42,58 @@ Una entidad sin ánimo de lucro que cruza inteligencia artificial y humanidades.
   <a href="{{ '/articulos' | url }}" style="font-family: var(--fuente-mono); color: var(--acento);">→ Ver archivo completo de artículos</a>
 </p>
 
+## CineAI Experimental
+
+**FullStack 100% AI Experimental** - Films generados por IA con mínima intervención humana.
+
+<div class="cards-grid">
+  <article class="video-card">
+    <video controls class="card-video">
+      <source src="{{ '/videos/cineai/video1.mp4' | url }}" type="video/mp4">
+      Tu navegador no soporta el elemento video.
+    </video>
+    <div class="video-card-content">
+      <h2 class="video-card-title">FullStack AI- Film 1</h2>
+      <p class="video-card-description">
+        Primera exploración cinematográfica generada por IA con mínima intervención humana.
+      </p>
+      <p class="card-meta">2025 • IA-ismo LAB</p>
+    </div>
+  </article>
+
+  <article class="video-card">
+    <video controls class="card-video">
+      <source src="{{ '/videos/cineai/video2.mp4' | url }}" type="video/mp4">
+      Tu navegador no soporta el elemento video.
+    </video>
+    <div class="video-card-content">
+      <h2 class="video-card-title">FullStack AI- Film 2</h2>
+      <p class="video-card-description">
+        Segunda producción experimental explorando la creatividad de modelos de IA.
+      </p>
+      <p class="card-meta">2025 • IA-ismo LAB</p>
+    </div>
+  </article>
+
+  <article class="video-card">
+    <video controls class="card-video">
+      <source src="{{ '/videos/cineai/video3.mp4' | url }}" type="video/mp4">
+      Tu navegador no soporta el elemento video.
+    </video>
+    <div class="video-card-content">
+      <h2 class="video-card-title">FullStack AI- Film 3</h2>
+      <p class="video-card-description">
+        Tercera entrega de la serie experimental de cine generado por IA.
+      </p>
+      <p class="card-meta">2025 • IA-ismo LAB</p>
+    </div>
+  </article>
+</div>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="{{ '/cineai' | url }}" style="font-family: var(--fuente-mono); color: var(--acento);">→ Ver colección completa de CineAI</a>
+</p>
+
 ---
 
 **Aquí no hacemos "contenidos", hacemos tiempo.**  
