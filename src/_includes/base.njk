@@ -25,7 +25,7 @@
   <meta name="twitter:description" content="{{ description or 'El archivo canónico del pensamiento IAista.' }}">
   <meta name="twitter:creator" content="@iaismo_lab">
   
-  <title>{{ title }}{% if title != 'IA-ismo LAB' %} | ⚠️ IA-ismo LAB{% endif %}</title>
+  <title>{% if title == 'IA-ismo LAB' %}⚠️ {{ title }}{% else %}{{ title }} | ⚠️ IA-ismo LAB{% endif %}</title>
   
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚠️</text></svg>">
@@ -41,13 +41,13 @@
         <p class="site-tagline">» Archivo • Pensamiento • Crítica</p>
       </div>
       <nav class="nav-main">
-        <a href="{{ '/' | url }}" {% if page.url == "/" %}class="active"{% endif %}>INICIO</a>
-        <a href="{{ '/about' | url }}" {% if page.url == "/about/" %}class="active"{% endif %}>SOBRE NOSOTROS</a>
-        <a href="{{ '/como-trabajamos' | url }}" {% if page.url == "/como-trabajamos/" %}class="active"{% endif %}>CÓMO TRABAJAMOS</a>
-        <a href="{{ '/como-colaborar' | url }}" {% if page.url == "/como-colaborar/" %}class="active"{% endif %}>COLABORAR</a>
-        <a href="{{ '/proyectos' | url }}" {% if page.url == "/proyectos/" %}class="active"{% endif %}>proyectos</a>
-        <a href="{{ '/articulos' | url }}" {% if '/articulos' in page.url or '/posts' in page.url %}class="active"{% endif %}>ARTÍCULOS</a>
-        <a href="{{ '/videos' | url }}" {% if page.url == "/videos/" %}class="active"{% endif %}>VÍDEOS</a>
+        <a href="{{ '/' | url }}" {% if page.url == "/" %}class="active"{% endif %}>INICIO</a> |
+        <a href="{{ '/about' | url }}" {% if page.url == "/about/" %}class="active"{% endif %}>SOBRE NOSOTROS</a> |
+        <a href="{{ '/como-trabajamos' | url }}" {% if page.url == "/como-trabajamos/" %}class="active"{% endif %}>CÓMO TRABAJAMOS</a> |
+        <a href="{{ '/como-colaborar' | url }}" {% if page.url == "/como-colaborar/" %}class="active"{% endif %}>COLABORAR</a> |
+        <a href="{{ '/proyectos' | url }}" {% if page.url == "/proyectos/" %}class="active"{% endif %}>proyectos</a> |
+        <a href="{{ '/articulos' | url }}" {% if '/articulos' in page.url or '/posts' in page.url %}class="active"{% endif %}>ARTÍCULOS</a> |
+        <a href="{{ '/videos' | url }}" {% if page.url == "/videos/" %}class="active"{% endif %}>VÍDEOS</a> |
         <a href="{{ '/cineai' | url }}" {% if page.url == "/cineai/" %}class="active"{% endif %}>CINEAI</a>
       </nav>
     </div>
