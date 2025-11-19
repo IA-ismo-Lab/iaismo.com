@@ -21,7 +21,7 @@ Pensamiento IAista en formato visual. Conferencias, experimentos, disonancias te
         Exploración sobre la disonancia en la relación humano-máquina.
       </p>
       <p class="card-meta">2025 • IA-ismo LAB</p>
-      <a href="#" class="prompt-link" data-video-id="technological-dissonance">Prompt</a>
+      <a href="#" class="prompt-link" data-video-id="technological-dissonance">Ver Prompt</a>
     </div>
   </article>
 
@@ -131,21 +131,30 @@ document.addEventListener('DOMContentLoaded', function() {
       const details = videoDetails[videoId];
       
       if (details) {
-        // Crear o actualizar el elemento de detalles
-        let detailDiv = this.parentNode.querySelector('.video-details');
-        if (!detailDiv) {
-          detailDiv = document.createElement('div');
-          detailDiv.className = 'video-details';
-          this.parentNode.appendChild(detailDiv);
-        }
+        // Buscar si ya existe una tarjeta de detalles para este video
+        let detailCard = document.querySelector(`.video-detail-card[data-video-id="${videoId}"]`);
         
-        // Toggle visibility
-        if (detailDiv.style.display === 'block') {
-          detailDiv.style.display = 'none';
-          this.textContent = 'Prompt';
+        if (detailCard) {
+          // Si existe, toggle visibility
+          detailCard.style.display = detailCard.style.display === 'none' ? 'block' : 'none';
+          this.textContent = detailCard.style.display === 'none' ? 'Ver Prompt' : 'Ocultar Prompt';
         } else {
-          detailDiv.innerHTML = `<h3>${details.title}</h3><pre>${details.content}</pre>`;
-          detailDiv.style.display = 'block';
+          // Si no existe, crear nueva tarjeta de detalles
+          const cardsGrid = document.querySelector('.cards-grid');
+          detailCard = document.createElement('article');
+          detailCard.className = 'video-detail-card';
+          detailCard.setAttribute('data-video-id', videoId);
+          detailCard.innerHTML = `
+            <div class="video-detail-content">
+              <h3>${details.title}</h3>
+              <pre>${details.content}</pre>
+            </div>
+          `;
+          
+          // Insertar después de la tarjeta del video correspondiente
+          const videoCard = this.closest('.video-card');
+          videoCard.insertAdjacentElement('afterend', detailCard);
+          
           this.textContent = 'Ocultar Prompt';
         }
       }

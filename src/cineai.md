@@ -49,7 +49,7 @@ Films realizados con la mínima intervención humana. Explorando la creatividad 
         <br />Tools: MovieFlow | 4o
       </p>
       <p class="card-meta">2025 • IA-ismo LAB</p>
-      <a href="#" class="prompt-link" data-video-id="extranatuta">Prompt</a>
+      <a href="#" class="prompt-link" data-video-id="extranatuta">Ver Prompt</a>
     </div>
   </article>
 
@@ -66,7 +66,7 @@ Films realizados con la mínima intervención humana. Explorando la creatividad 
         <br />Tools: MovieFlow | 4o
       </p>
       <p class="card-meta">2025 • IA-ismo LAB</p>
-      <a href="#" class="prompt-link" data-video-id="zelma">Prompt</a>
+      <a href="#" class="prompt-link" data-video-id="zelma">Ver Prompt</a>
     </div>
   </article>
 
@@ -83,7 +83,58 @@ Films realizados con la mínima intervención humana. Explorando la creatividad 
         <br />Tools: MovieFlow | Fichas Redacción 4o
       </p>
       <p class="card-meta">2025 • IA-ismo LAB</p>
-      <a href="#" class="prompt-link" data-video-id="masdinero">Prompt</a>
+      <a href="#" class="prompt-link" data-video-id="masdinero">Ver Prompt</a>
+    </div>
+  </article>
+
+  <article class="video-card" data-video-id="video4">
+    <video controls class="card-video" preload="metadata" aria-label="Video experimental de IA: Video 4 - Nuevo experimento generado por MovieFlow" title="Video 4 - Nuevo experimento generado por IA">
+      <source src="{{ '/videos/cineai/video4.mp4' | url }}" type="video/mp4">
+      Tu navegador no soporta el elemento video.
+    </video>
+    <div class="video-card-content">
+      <h2 class="video-card-title">Video 4</h2>
+      <progress value="95" max="100" aria-label="Progreso de autonomía: 95%">95%</progress>
+      <p class="video-card-description">
+        95% Autonomía <br />Nuevo experimento MovieFlow.
+        <br />Tools: MovieFlow | IA avanzada
+      </p>
+      <p class="card-meta">2025 • IA-ismo LAB</p>
+      <a href="#" class="prompt-link" data-video-id="video4">Ver Prompt</a>
+    </div>
+  </article>
+
+  <article class="video-card" data-video-id="video5">
+    <video controls class="card-video" preload="metadata" aria-label="Video experimental de IA: Video 5 - Experimento multimedia generado por MovieFlow" title="Video 5 - Experimento multimedia generado por IA">
+      <source src="{{ '/videos/cineai/video5.mp4' | url }}" type="video/mp4">
+      Tu navegador no soporta el elemento video.
+    </video>
+    <div class="video-card-content">
+      <h2 class="video-card-title">Video 5</h2>
+      <progress value="88" max="100" aria-label="Progreso de autonomía: 88%">88%</progress>
+      <p class="video-card-description">
+        88% Autonomía <br />Experimento multimedia avanzado.
+        <br />Tools: MovieFlow | Multimodal IA
+      </p>
+      <p class="card-meta">2025 • IA-ismo LAB</p>
+      <a href="#" class="prompt-link" data-video-id="video5">Ver Prompt</a>
+    </div>
+  </article>
+
+  <article class="video-card" data-video-id="video6">
+    <video controls class="card-video" preload="metadata" aria-label="Video experimental de IA: Video 6 - Proyecto experimental generado por MovieFlow" title="Video 6 - Proyecto experimental generado por IA">
+      <source src="{{ '/videos/cineai/video6.mp4' | url }}" type="video/mp4">
+      Tu navegador no soporta el elemento video.
+    </video>
+    <div class="video-card-content">
+      <h2 class="video-card-title">Video 6</h2>
+      <progress value="92" max="100" aria-label="Progreso de autonomía: 92%">92%</progress>
+      <p class="video-card-description">
+        92% Autonomía <br />Proyecto experimental innovador.
+        <br />Tools: MovieFlow | IA experimental
+      </p>
+      <p class="card-meta">2025 • IA-ismo LAB</p>
+      <a href="#" class="prompt-link" data-video-id="video6">Ver Prompt</a>
     </div>
   </article>
 </div>
@@ -178,6 +229,60 @@ Algoritmos que generan dinero de transacciones invisibles. Humanos intentando co
 La paradoja de la abundancia digital en un mundo de escasez analógica.
 
 MovieFlow | Fichas Redacción 4o`
+  },
+  video4: {
+    title: "🎬 Título:",
+    content: `"Video 4: Experimento Cuántico Visual"
+
+🧠 ¿Qué es?
+Un experimento que explora la superposición de realidades visuales. Donde múltiples timelines coexisten en un mismo frame, creando una experiencia de observación cuántica.
+
+🎨 VISUAL:
+Efectos de superposición visual con múltiples capas de realidad. Transparencias que revelan universos paralelos. Colores que cambian según el ángulo de observación.
+
+🧩 ESCENAS EJEMPLO:
+Objetos que existen en múltiples estados simultáneamente. Personajes que atraviesan dimensiones visuales. Tiempo que fluye en direcciones opuestas.
+
+📼 ¿Trama?
+La imposibilidad de observar sin alterar lo observado.
+
+MovieFlow | IA Cuántica`
+  },
+  video5: {
+    title: "🎬 Título:",
+    content: `"Video 5: Sinestesia Digital"
+
+🧠 ¿Qué es?
+Una exploración de la sinestesia artificial. Donde los sonidos generan colores, los colores producen sonidos, y las emociones se manifiestan como geometrías.
+
+🎨 VISUAL:
+Geometrías que responden a frecuencias sonoras invisibles. Colores que laten al ritmo de algoritmos. Formas que se materializan desde el vacío matemático.
+
+🧩 ESCENAS EJEMPLO:
+Música que pinta paisajes abstractos. Emociones que se cristalizan en formas geométricas. Pensamientos que se vuelven visibles como arquitecturas.
+
+📼 ¿Trama?
+La traducción de lo invisible a lo visible a través de la percepción artificial.
+
+MovieFlow | Sinestesia IA`
+  },
+  video6: {
+    title: "🎬 Título:",
+    content: `"Video 6: Memoria Líquida"
+
+🧠 ¿Qué es?
+Un viaje a través de memorias que se disuelven y reforman. Donde el pasado, presente y futuro coexisten en un estado fluido de transformación constante.
+
+🎨 VISUAL:
+Texturas líquidas que se solidifican y evaporan. Colores que se funden y separan como mercurio. Formas que recuerdan y olvidan su propia existencia.
+
+🧩 ESCENAS EJEMPLO:
+Recuerdos que se derraman como agua. Tiempo que se condensa en gotas. Identidades que se disuelven en el flujo de la consciencia.
+
+📼 ¿Trama?
+La naturaleza efímera de la memoria en la era digital.
+
+MovieFlow | Memoria Fluida`
   }
 };
 
@@ -191,21 +296,30 @@ document.addEventListener('DOMContentLoaded', function() {
       const details = videoDetails[videoId];
       
       if (details) {
-        // Crear o actualizar el elemento de detalles
-        let detailDiv = this.parentNode.querySelector('.video-details');
-        if (!detailDiv) {
-          detailDiv = document.createElement('div');
-          detailDiv.className = 'video-details';
-          this.parentNode.appendChild(detailDiv);
-        }
+        // Buscar si ya existe una tarjeta de detalles para este video
+        let detailCard = document.querySelector(`.video-detail-card[data-video-id="${videoId}"]`);
         
-        // Toggle visibility
-        if (detailDiv.style.display === 'block') {
-          detailDiv.style.display = 'none';
-          this.textContent = 'Prompt';
+        if (detailCard) {
+          // Si existe, toggle visibility
+          detailCard.style.display = detailCard.style.display === 'none' ? 'block' : 'none';
+          this.textContent = detailCard.style.display === 'none' ? 'Ver Prompt' : 'Ocultar Prompt';
         } else {
-          detailDiv.innerHTML = `<h3>${details.title}</h3><pre>${details.content}</pre>`;
-          detailDiv.style.display = 'block';
+          // Si no existe, crear nueva tarjeta de detalles
+          const cardsGrid = document.querySelector('.cards-grid');
+          detailCard = document.createElement('article');
+          detailCard.className = 'video-detail-card';
+          detailCard.setAttribute('data-video-id', videoId);
+          detailCard.innerHTML = `
+            <div class="video-detail-content">
+              <h3>${details.title}</h3>
+              <pre>${details.content}</pre>
+            </div>
+          `;
+          
+          // Insertar después de la tarjeta del video correspondiente
+          const videoCard = this.closest('.video-card');
+          videoCard.insertAdjacentElement('afterend', detailCard);
+          
           this.textContent = 'Ocultar Prompt';
         }
       }

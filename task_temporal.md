@@ -2,7 +2,7 @@
 **Fecha:** 19 Noviembre 2025
 **Estado:** DEPLOYMENT COMPLETADO ✅
 **Revisión IA Colaboradora:** ✅ Recibida y analizada
-**Último Deployment:** ✅ Subido a producción (modal interactivo en videos)
+**Último Deployment:** ✅ Subido a producción (enlaces Prompt simples)
 
 ## 📋 Lista de Tareas Prioritarias
 
@@ -52,10 +52,11 @@
 
 ### 💡 Funcionalidades Nuevas
 - [x] **Modal interactivo en tarjetas de video**
-  - [x] Click en tarjetas muestra ventana emergente con detalles completos
+  - [x] Enlaces "Prompt" simples en lugar de modal complejo
+  - [x] Click en "Prompt" muestra/oculta detalles debajo de la tarjeta
   - [x] Contenido detallado para "Extrañatura" con descripción completa
   - [x] Funcionalidad en páginas CineAI y Videos
-  - [x] Diseño responsive y accesible
+  - [x] Diseño simple y accesible
   - [x] **DEPLOYMENT:** Funcionalidad activa en producción
 - [ ] **Landing page optimizada**
   - [ ] Hero section con mensaje claro (2-3 frases)
