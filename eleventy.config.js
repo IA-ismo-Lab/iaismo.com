@@ -12,6 +12,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/videos");
   eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy("src/sitemap.xml");
 
   // Crear colección de posts ordenados por fecha (más recientes primero)
   eleventyConfig.addCollection("posts", function(collectionApi) {

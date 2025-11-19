@@ -105,6 +105,33 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
   0%, 50% { opacity: 1; }
   51%, 100% { opacity: 0; }
 }
+
+/* Card de últimas investigaciones */
+.news-card {
+  background: var(--gris-oscuro);
+  border: 1px solid var(--gris-medio);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-family: var(--fuente-mono);
+}
+
+.news-card h3 {
+  color: var(--acento);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.news-card p {
+  color: var(--gris-claro);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.news-card .news-date {
+  color: var(--gris-medio);
+  font-size: 0.8rem;
+}
 </style>
 
 # IA-ismo LAB . Research IA.
@@ -219,10 +246,18 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
   <div class="terminal-body">
     <div class="terminal-content">
       <span class="terminal-prompt">$</span> <span class="terminal-text">GTM19112025 >  Gemini 3.0 se ha lanzado.</span><br>
-       <span class="terminal-prompt">$</span> <span class="terminal-text">GTM19112025 >  MovieFlow  es nuestra apuesta para arrasasr en la generación de video.</span><span class="cursor">|</span><br>
+       <span class="terminal-prompt">$</span> <span class="terminal-text">GTM19112025 >  MovieFlow  es nuestra apuesta para arrasar en la generación de video.</span><span class="cursor">|</span><br>
       </span>
     </div>
   </div>
+</div>
+
+<div class="news-card">
+  <h3>Últimas Investigaciones</h3>
+  <p><strong>Gemini 3.0</strong><br>Google lanza su modelo más avanzado de IA multimodal.</p>
+  <p class="news-date">19 Nov 2025</p>
+  <p><strong>MovieFlow</strong><br>Nuestra herramienta experimental para generación automática de video.</p>
+  <p class="news-date">18 Nov 2025</p>
 </div>
 </div>
 </div>
