@@ -139,10 +139,10 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
 }
 
 .project-icon-large {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
-  margin-bottom: 0.5rem; /* Reducido de 1rem */
-  padding: 0.5rem; /* Reducido de 1rem */
+  margin-bottom: 1rem;
+  padding: 1rem;
   background: var(--gris-medio);
   border-radius: 8px;
 }
@@ -219,12 +219,34 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
 
 **Asoc. Cientifica IA-ismo LAB . Europe. Spain . Entidad sin ánimo de lucro para la Investigación, divulgación y producción de Inteligencia Artificial.**
 
+## 📰 Newsletter & Repositorios
+
+<div style="background: var(--gris-oscuro); border: 1px solid var(--gris-medio); border-radius: 8px; padding: 1.5rem; margin: 1rem 0 0.5rem 0; font-family: var(--fuente-mono);">
+  <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; margin-bottom: 1rem;">
+    <div>
+      <h3 style="color: var(--acento); margin: 0 0 0.5rem 0; font-size: 1.1rem;">📧 IA-ismo Newsletter</h3>
+      <p style="color: var(--gris-claro); margin: 0; font-size: 0.9rem;">2305 Suscritores • Actualizaciones semanales sobre IA</p>
+      <a href="https://www.linkedin.com/newsletters/ia-ismo-7013065703138177024/" style="color: var(--acento); text-decoration: none; font-weight: bold;">→ Suscribirse</a>
+    </div>
+    <div>
+      <h3 style="color: var(--acento); margin: 0 0 0.5rem 0; font-size: 1.1rem;">🐙 GitHub</h3>
+      <p style="color: var(--gris-claro); margin: 0; font-size: 0.9rem;">Código abierto • Proyectos de IA</p>
+      <a href="https://github.com/orgs/IA-ismo-Lab/repositories" style="color: var(--acento); text-decoration: none; font-weight: bold;">→ Ver repositorios</a>
+    </div>
+    <div>
+      <h3 style="color: var(--acento); margin: 0 0 0.5rem 0; font-size: 1.1rem;">📄 Papers</h3>
+      <p style="color: var(--gris-claro); margin: 0; font-size: 0.9rem;">Publicaciones científicas • Investigación académica</p>
+      <a href="https://orcid.org/0000-0003-3129-7778" style="color: var(--acento); text-decoration: none; font-weight: bold;">→ Ver ORCID</a>
+    </div>
+  </div>
+</div>
+
 <div class="page-container">
 <div class="main-content">
 
-## 🚀 Últimos Proyectos
+## 💻 Últimos Proyectos
 
-<div class="cards-grid" style="margin-top: 0.5rem;"> <!-- Reducido margen superior -->
+<div class="cards-grid">
   <article class="card project-card">
     <div class="project-icon-large">🔥</div>
     <div class="card-content">
@@ -259,13 +281,13 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
   </article>
 </div>
 
-<p style="text-align: center; margin: 0.5rem 0 1rem 0;"> <!-- Reducido márgenes -->
+<p style="text-align: center; margin: 1rem 0 2rem 0;">
   <a href="{{ '/proyectos' | url }}" style="font-family: var(--fuente-mono); color: var(--acento);">→ Ver todos los proyectos</a>
 </p>
 
 ## 💻 Código
 
-<div class="cards-grid" style="margin-top: 0.5rem;"> <!-- Reducido margen superior -->
+<div class="cards-grid">
   <article class="card project-card-small">
     <div class="project-icon-small">🔥</div>
     <div class="card-content">
@@ -304,7 +326,7 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
 
 **FullStack 100% AI Experimental** - Films generados por IA con mínima intervención humana.
 
-<div class="cards-grid" style="margin-top: 1rem;"> <!-- Reducido margen superior -->
+<div class="cards-grid">
   <article class="video-card">
     <video controls class="card-video">
       <source src="{{ '/videos/cineai/video1.mp4' | url }}" type="video/mp4">
