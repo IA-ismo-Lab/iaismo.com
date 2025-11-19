@@ -159,6 +159,7 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
         <br />Tools: MovieFlow | 4o
       </p>
       <p class="card-meta">2025 • IA-ismo LAB</p>
+      <a href="#" class="prompt-link" data-video-id="extranatuta">Ver Prompt</a>
     </div>
   </article>
 
@@ -175,6 +176,7 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
         <br />Tools: MovieFlow | 4o
       </p>
       <p class="card-meta">2025 • IA-ismo LAB</p>
+      <a href="#" class="prompt-link" data-video-id="zelma1975ia">Ver Prompt</a>
     </div>
   </article>
 
@@ -191,6 +193,7 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
         <br />Tools: MovieFlow | Fichas Redacción 4o
       </p>
       <p class="card-meta">2025 • IA-ismo LAB</p>
+      <a href="#" class="prompt-link" data-video-id="masdinero">Ver Prompt</a>
     </div>
   </article>
 </div>
@@ -261,3 +264,5 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
 </div>
 </div>
 </div>
+
+<script src="{{ '/js/prompt.js' | url }}"></script>
