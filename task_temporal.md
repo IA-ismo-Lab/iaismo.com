@@ -17,10 +17,13 @@
 ### 👥 Contenido Institucional
 - [x] **Crear sección "Quiénes Somos" mejorada**
   - [x] Página dedicada con historia del proyecto
-  - [x] Sección "Miembros" del equipo (Alicia Colmenero Fernández)
+  - [x] Sección "Miembros" del equipo (Alicia Colmenero Fernández - perfil técnico corregido)
   - [x] Información sobre estatus legal (asociación en trámite)
   - [x] Tecnologías y modelos IA utilizados
   - [x] LinkedIn como contacto profesional
+  - [x] **CORREGIDO:** Enfoque técnico en desarrollo IA, no cultural/experimental
+  - [x] **CORREGIDO:** Credenciales académicas reales (Master IA, profesora Universidad Jaén)
+  - [x] **ELIMINADO:** "Jefa Humana" y referencias a investigación filosófica
 - [x] **Crear sección "Cómo Trabajamos"**
   - [x] Metodología de investigación híbrida humano-IA
   - [x] Proceso de creación de contenido en 4 fases
@@ -40,6 +43,7 @@
   - [x] Diseño consistente mantenido
 - [x] **Mejorar navegación**
   - [x] Menú más estirado con separadores | y menos márgenes
+  - [x] Header expandido a 90vw para máximo aprovechamiento del espacio
   - [x] Corregir títulos duplicados en pestañas del navegador
   - [x] Diseño responsive mantenido para móviles
 
@@ -80,15 +84,15 @@
   - [ ] Heatmaps de uso
 
 ## 📊 Estado General
-- **Completado:** 65%
+- **Completado:** 70%
 - **En Producción:** ✅ DEPLOYMENT COMPLETADO
-- **Pendiente:** 35%
+- **Pendiente:** 30%
 
 ## 🎯 Estado Actual - DEPLOYMENT EXITOSO
 1. ✅ **Prioridad 1:** Accesibilidad (alt texts, encabezados) - COMPLETADA
 2. ✅ **Prioridad 2:** Contenido institucional básico - COMPLETADO
 3. ✅ **Prioridad 3:** Branding - APROBADO (mantener diseño actual)
-4. ✅ **Navegación mejorada:** Menú estirado y títulos corregidos
+4. ✅ **Navegación completamente optimizada:** Menú expandido 90vw + títulos corregidos
 5. ✅ **Deployment:** Sitio subido a https://www.iaismo.com
 
 ## 📝 Notas Importantes

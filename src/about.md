@@ -1,68 +1,78 @@
 ---
 layout: base
 title: Sobre IA-ismo LAB
-description: Quiénes somos, nuestra misión y el equipo detrás de IA-ismo LAB - laboratorio de pensamiento crítico en IA y humanidades
+description: Laboratorio especializado en desarrollo e integración de sistemas de IA - investigación aplicada, desarrollo técnico y formación especializada
 ---
 
 # Sobre IA-ismo LAB
 
 ## Nuestra Misión
 
-**IA-ismo LAB** es un laboratorio independiente de pensamiento crítico especializado en la intersección entre inteligencia artificial y humanidades. Fundado en 2025, somos una asociación científica sin ánimo de lucro dedicada a la investigación, divulgación y producción crítica sobre tecnologías emergentes.
+**IA-ismo LAB** es un laboratorio especializado en el desarrollo e integración de sistemas de inteligencia artificial. Fundado en 2025, somos una asociación científica sin ánimo de lucro dedicada a la investigación aplicada, desarrollo técnico y divulgación especializada en IA.
 
-> "La IA no se implanta, se muda. Es un fenómeno cultural que exige análisis riguroso."
+> "La IA no se implanta, se integra. Es un proceso técnico que requiere expertise especializada."
 
-## ¿Qué Hacemos?
+## ¿Qué Desarrollamos?
 
-### Investigación Aplicada
-- Análisis filosófico y cultural de la IA
-- Estudios sobre impacto social de las tecnologías emergentes
-- Desarrollo de marcos éticos para IA responsable
+### Investigación Aplicada en IA
+- Desarrollo de sistemas inteligentes y algoritmos avanzados
+- Integración multimedia y procesamiento de datos complejos
+- Optimización de modelos de machine learning para aplicaciones reales
+- Investigación en bioinformática y arqueología virtual
 
-### Producción Intelectual
-- Publicación de manifiestos y análisis críticos originales
-- Experimentación con CineAI y formas híbridas de creación
-- Archivo digital del pensamiento IAista contemporáneo
+### Desarrollo Técnico
+- Diseño y programación de sistemas de IA personalizados
+- Desarrollo de frameworks para integración multimedia
+- Creación de herramientas de análisis y procesamiento de datos
+- Implementación de soluciones técnicas innovadoras
 
-### Divulgación Científica
-- Contenido accesible sobre complejidades técnicas
-- Traducción de conceptos técnicos a lenguaje humanista
-- Democratización del conocimiento sobre IA
+### Divulgación Especializada
+- Publicación de investigaciones científicas sobre desarrollo de IA
+- Documentación técnica de procesos de integración de sistemas
+- Formación especializada en tecnologías emergentes
+- Transferencia de conocimiento técnico a la comunidad
 
 ## El Equipo
 
 ### Alicia Colmenero Fernández
-**Fundadora, Directora Ejecutiva y Jefa Humana**
+**Directora Ejecutiva y Desarrolladora Principal**
 
-Alicia Colmenero Fernández es investigadora independiente especializada en la intersección entre tecnologías emergentes y pensamiento crítico. Con formación en humanidades digitales y filosofía contemporánea, lidera IA-ismo LAB como entidad operativa principal.
+Alicia Colmenero Fernández es programadora especializada en sistemas de inteligencia artificial y desarrollo de aplicaciones multimedia. Vinculada a la Universidad de Jaén como profesora de Informática en el área de Sistemas de Aplicaciones Informáticas.
 
-**Especialización:**
-- Filosofía de la tecnología
-- Ética de la IA
-- Humanidades digitales
-- Pensamiento crítico aplicado
+**Formación Académica:**
+- **Master en Inteligencia Artificial** - Especialización en desarrollo de sistemas inteligentes
+- **Graduada en Multimedia** - Diseño y desarrollo de aplicaciones interactivas
+- **Postgrado en Bioinformática** - Análisis de datos biológicos y genómicos
+- **Master en Arqueología Virtual** - Integración de tecnologías 3D y IA en patrimonio cultural
+- **Licenciada en Historia del Arte** - Base humanística para proyectos culturales
+
+**Especialización Técnica:**
+- Desarrollo de sistemas inteligentes y algoritmos
+- Programación de aplicaciones IA multimedia
+- Diseño de arquitecturas de integración de datos
+- Pensamiento crítico aplicado al desarrollo técnico
 
 **Contacto Profesional:**
-- **LinkedIn:** [linkedin.com/in/alicia-colmenero](https://linkedin.com/in/alicia-colmenero)
 - **Email:** [contacto@iaismo.com](mailto:contacto@iaismo.com)
+- **LinkedIn:** [linkedin.com/in/alicia-colmenero](https://linkedin.com/in/alicia-colmenero)
 
-### Tecnologías y Modelos IA
+### Tecnologías y Enfoque Técnico
 
-IA-ismo LAB desarrolla su trabajo utilizando un ecosistema diverso de modelos y herramientas de IA, seleccionados por su capacidad para colaborar en procesos creativos e intelectuales:
+IA-ismo LAB se centra en el **desarrollo práctico y la integración técnica** de sistemas de IA:
 
 **Modelos de Lenguaje Principal:**
-- **GPT-4o** - Para redacción creativa y análisis filosófico
-- **Claude 3** - Para razonamiento ético y revisión crítica
-- **Gemini 3.0** - Para investigación multimodal y síntesis
+- **GPT-4o** - Para desarrollo de interfaces conversacionales y procesamiento de lenguaje natural
+- **Claude 3** - Para razonamiento lógico y análisis de datos estructurados
+- **Gemini 3.0** - Para integración multimodal y procesamiento de contenido visual
 
 **Herramientas Especializadas:**
-- **MovieFlow** - Framework propietario para generación cinematográfica
-- **Modelos de visión** - Para análisis de contenido visual
-- **Herramientas de síntesis** - Para producción de audio y video
+- **MovieFlow** - Framework propietario para integración cinematográfica y multimedia
+- **Herramientas de desarrollo** - Python, frameworks de ML, sistemas de integración
+- **Tecnologías de procesamiento** - Análisis de datos, computer vision, NLP
 
-Cada herramienta es seleccionada por su capacidad para **colaborar activamente** en el proceso creativo, no como mera automatización.
+Cada herramienta se selecciona por su **capacidad técnica para resolver problemas específicos** de desarrollo e integración.
 
-## Marco Legal y Transparencia
+## Marco Legal y Profesional
 
 ### Estatuto Jurídico
 IA-ismo LAB está constituida como **asociación científica sin ánimo de lucro** con sede en España. Actualmente nos encontramos en proceso de formalización legal completa ante las autoridades competentes.
@@ -71,33 +81,54 @@ IA-ismo LAB está constituida como **asociación científica sin ánimo de lucro
 **Fecha de constitución:** Noviembre 2025
 **Jurisdicción:** España (Unión Europea)
 
-### Transparencia
-- **Financiación:** Independiente, sin dependencia de intereses comerciales
-- **Metodología:** Investigación abierta y reproducible
-- **Ética:** Compromiso con la responsabilidad y el impacto positivo
+### Enfoque Profesional
+- **Desarrollo técnico especializado** - Enfoque en soluciones prácticas de IA
+- **Integración de sistemas** - Especialización en multimedia y datos complejos
+- **Formación académica** - Vinculación universitaria y docencia
+- **Investigación aplicada** - Desarrollo de soluciones reales y escalables
 
-## Filosofía de Trabajo
+## Metodología de Trabajo
 
-### Pensamiento Híbrido
-Defendemos un enfoque híbrido donde humanos e inteligencias artificiales colaboran en pie de igualdad. No somos tecno-optimistas ingenuos ni alarmistas apocalípticos.
+### Desarrollo Sistemático
+1. **Análisis técnico** - Evaluación de requisitos y viabilidad
+2. **Diseño de arquitectura** - Planificación de sistemas integrados
+3. **Implementación** - Desarrollo y programación de soluciones
+4. **Testing y optimización** - Validación técnica y mejora de rendimiento
+5. **Documentación** - Registro completo de procesos y resultados
 
-### Investigación Aplicada
-Nuestra investigación no permanece en lo teórico: se traduce en productos culturales concretos, análisis críticos y experimentos prácticos.
+### Integración Multimedia
+Especialización en la **integración de IA con contenido multimedia**:
+- Procesamiento de video y audio con algoritmos de IA
+- Análisis de datos visuales y reconocimiento de patrones
+- Desarrollo de interfaces hombre-máquina intuitivas
+- Optimización de rendimiento en sistemas complejos
 
-### Accesibilidad
-Creemos que la complejidad técnica debe ser accesible. Traducimos conceptos avanzados a lenguaje humanista sin perder rigor.
+## Valores Profesionales
 
-## Valores Fundamentales
+- **Excelencia técnica** - Desarrollo de soluciones robustas y escalables
+- **Innovación aplicada** - Enfoque práctico en el desarrollo de IA
+- **Integridad profesional** - Compromiso con estándares éticos y técnicos
+- **Transparencia metodológica** - Documentación completa de procesos
+- **Formación especializada** - Contribución al desarrollo de talento técnico
 
-- **Independencia** - Libre de intereses comerciales o institucionales
-- **Rigurosidad** - Análisis crítico y metodológico
-- **Transparencia** - Procesos abiertos y reproducibles
-- **Colaboración** - Trabajo conjunto entre humanos y máquinas
-- **Impacto** - Contribución real al pensamiento contemporáneo
+## Contacto Profesional
 
-## Contacto y Colaboración
+¿Interesado en colaboraciones técnicas o proyectos de desarrollo?
 
-¿Interesado en colaborar o tienes preguntas sobre nuestro trabajo?
+**Alicia Colmenero Fernández**
+- **Email:** [contacto@iaismo.com](mailto:contacto@iaismo.com)
+- **LinkedIn:** [linkedin.com/in/alicia-colmenero](https://linkedin.com/in/alicia-colmenero)
+- **Universidad de Jaén** - Profesora de Informática (Sistemas de Aplicaciones Informáticas)
+
+**Áreas de colaboración:**
+- Desarrollo conjunto de sistemas IA
+- Consultoría técnica especializada
+- Formación y capacitación en tecnologías emergentes
+- Proyectos de investigación aplicada
+
+---
+
+*"El desarrollo de IA requiere precisión técnica y visión estratégica."*
 
 - **Email:** [contacto@iaismo.com](mailto:contacto@iaismo.com)
 - **LinkedIn:** [linkedin.com/in/alicia-colmenero](https://linkedin.com/in/alicia-colmenero)
