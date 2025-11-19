@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Formación crítica en IA-ismo LAB">
+  <meta name="description" content="Proyectos de código abierto de IA-ismo LAB">
   <meta name="author" content="IA-ismo LAB">
   <meta name="keywords" content="inteligencia artificial, IA, machine learning, investigación, cine experimental, pensamiento crítico, humanidades, tecnología, innovación, laboratorio de investigación">
   <meta name="robots" content="index, follow">
@@ -13,7 +13,7 @@
   
   <!-- Open Graph -->
   <meta property="og:title" content="proyectos">
-  <meta property="og:description" content="Formación crítica en IA-ismo LAB">
+  <meta property="og:description" content="Proyectos de código abierto de IA-ismo LAB">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.iaismo.com/proyectos/">
   <meta property="og:site_name" content="IA-ismo LAB">
@@ -22,7 +22,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="proyectos">
-  <meta name="twitter:description" content="Formación crítica en IA-ismo LAB">
+  <meta name="twitter:description" content="Proyectos de código abierto de IA-ismo LAB">
   <meta name="twitter:creator" content="@iaismo_lab">
   
   <title>proyectos | ⚠️ IA-ismo LAB</title>
@@ -54,19 +54,128 @@
   </header>
 
   <main class="site-main">
-    <h1>proyectos</h1>
-<p><strong>Sección en desarrollo.</strong></p>
-<p>IA-ismo LAB no ofrece formación orientada a empleabilidad ni certificaciones técnicas. Los programas formativos, cuando estén disponibles, responderán a criterios de investigación académica y rigor metodológico.</p>
-<p>Actualmente en preparación:</p>
-<ul>
-<li>Seminarios de investigación sobre IA y epistemología</li>
-<li>Talleres metodológicos de análisis crítico</li>
-<li>Programas de investigación colaborativa</li>
-</ul>
-<p>Consulta el archivo de <a href="/articulos">Artículos</a> y los <a href="/manifiestos">Manifiestos</a> para comprender el marco teórico del laboratorio.</p>
+    <style>
+.project-card {
+  background: var(--gris-oscuro);
+  border: 1px solid var(--gris-medio);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  border-color: var(--acento);
+  transform: translateY(-2px);
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-icon {
+  font-size: 3rem;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gris-medio);
+  border-radius: 8px;
+}
+
+.project-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: var(--acento);
+  margin: 0;
+  font-family: var(--fuente-mono);
+}
+
+.project-tag {
+  background: var(--acento);
+  color: var(--negro);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: var(--fuente-mono);
+}
+
+.project-description {
+  color: var(--gris-claro);
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.project-link {
+  color: var(--acento);
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--fuente-mono);
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+</style>
+<h1>🚀 Proyectos</h1>
+<p>Proyectos de código abierto desarrollados por IA-ismo LAB. Todos nuestros trabajos están disponibles en <a href="https://github.com/orgs/IA-ismo-Lab/repositories">GitHub</a>.</p>
+<div class="project-card">
+  <div class="project-header">
+    <div class="project-icon">🔥</div>
+    <div>
+      <h2 class="project-title">Fire Viewer</h2>
+      <span class="project-tag">web app</span>
+    </div>
+  </div>
+  <p class="project-description">
+    Visualizador en tiempo real de incendios forestales desarrollado con Python FastAPI y Cesium. 
+    Una herramienta IA-Friendly para monitoreo y análisis de incendios activos.
+  </p>
+  <a href="https://github.com/IA-ismo-Lab/fire-viewer" class="project-link">→ Ver en GitHub</a>
+</div>
+<div class="project-card">
+  <div class="project-header">
+    <div class="project-icon">🎙️</div>
+    <div>
+      <h2 class="project-title">VoiceClone AI Spanish</h2>
+      <span class="project-tag">codigo</span>
+    </div>
+  </div>
+  <p class="project-description">
+    Sistema de clonación de voz zero-shot especializado en español. 
+    Tecnología avanzada para síntesis de voz natural con acento español.
+  </p>
+  <a href="https://github.com/IA-ismo-Lab/VoiceClone-AI-Spanish" class="project-link">→ Ver en GitHub</a>
+</div>
+<div class="project-card">
+  <div class="project-header">
+    <div class="project-icon">🎧</div>
+    <div>
+      <h2 class="project-title">Castellanator</h2>
+      <span class="project-tag">codigo</span>
+    </div>
+  </div>
+  <p class="project-description">
+    Traductor de contenido impulsado por IA. Herramienta inteligente para traducción 
+    automática y localización de contenido multimedia.
+  </p>
+  <a href="https://github.com/IA-ismo-Lab/Castellanator" class="project-link">→ Ver en GitHub</a>
+</div>
 <hr>
 <blockquote>
-<p>&quot;La formación académica requiere tiempo de investigación y desarrollo metodológico.&quot;</p>
+<p>&quot;El código abierto acelera la innovación colectiva.&quot;</p>
 </blockquote>
 
   </main>
