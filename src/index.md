@@ -105,6 +105,35 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
   0%, 50% { opacity: 1; }
   51%, 100% { opacity: 0; }
 }
+
+/* Card de apoyo */
+.support-card {
+  background: var(--gris-oscuro);
+  border: 1px solid var(--gris-medio);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-family: var(--fuente-mono);
+}
+
+.support-card h3 {
+  color: var(--acento);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.support-card p {
+  color: var(--gris-claro);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.support-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
 </style>
 
 # IA-ismo LAB . Research IA.
@@ -223,6 +252,12 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
       </span>
     </div>
   </div>
+</div>
+
+<div class="support-card">
+  <h3>💝 Apoya IA-ismo LAB</h3>
+  <p>Si te gusta nuestro trabajo experimental con IA, puedes invitarnos a un café ☕</p>
+  <img src="{{ '/images/qr-code.png' | url }}" alt="Buy Me A Coffee QR Code">
 </div>
 </div>
 </div>
