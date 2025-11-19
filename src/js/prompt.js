@@ -30,8 +30,37 @@ const videoDetails = {
   }
 };
 
-// Funcionalidad simple para mostrar detalles
+// Funcionalidad para mostrar detalles en modal
 document.addEventListener('DOMContentLoaded', function() {
+  // Crear el modal si no existe
+  if (!document.querySelector('.prompt-modal')) {
+    const modal = document.createElement('div');
+    modal.className = 'prompt-modal';
+    modal.innerHTML = `
+      <div class="prompt-modal-overlay"></div>
+      <div class="prompt-modal-content">
+        <div class="prompt-modal-header">
+          <span class="prompt-modal-title">Prompt Details</span>
+          <button class="prompt-modal-close">&times;</button>
+        </div>
+        <div class="prompt-modal-body">
+          <h3 id="modal-video-title"></h3>
+          <pre id="modal-video-content"></pre>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(modal);
+
+    // Event listener para cerrar modal
+    modal.querySelector('.prompt-modal-close').addEventListener('click', function() {
+      modal.style.display = 'none';
+    });
+
+    modal.querySelector('.prompt-modal-overlay').addEventListener('click', function() {
+      modal.style.display = 'none';
+    });
+  }
+
   // Añadir eventos a los enlaces de prompt
   document.querySelectorAll('.prompt-link').forEach(link => {
     link.addEventListener('click', function(e) {
@@ -40,28 +69,14 @@ document.addEventListener('DOMContentLoaded', function() {
       const details = videoDetails[videoId];
 
       if (details) {
-        // Buscar si ya existe una tarjeta de detalles para este video
-        let detailCard = document.querySelector('.video-detail-card[data-video-id="' + videoId + '"]');
+        const modal = document.querySelector('.prompt-modal');
+        const titleEl = modal.querySelector('#modal-video-title');
+        const contentEl = modal.querySelector('#modal-video-content');
 
-        if (detailCard) {
-          // Si existe, toggle visibility
-          detailCard.style.display = detailCard.style.display === 'none' ? 'block' : 'none';
-          this.textContent = detailCard.style.display === 'none' ? 'Ver Prompt' : 'Ocultar Prompt';
-        } else {
-          // Si no existe, crear nueva tarjeta de detalles
-          const cardsGrid = document.querySelector('.cards-grid');
-          if (cardsGrid) {
-            detailCard = document.createElement('article');
-            detailCard.className = 'video-detail-card';
-            detailCard.setAttribute('data-video-id', videoId);
-            detailCard.innerHTML = '<div class="video-detail-content"><h3>' + details.title + '</h3><pre>' + details.content + '</pre></div>';
+        titleEl.textContent = details.title;
+        contentEl.textContent = details.content;
 
-            // Insertar después del cards-grid para que ocupe todo el ancho
-            cardsGrid.insertAdjacentElement('afterend', detailCard);
-
-            this.textContent = 'Ocultar Prompt';
-          }
-        }
+        modal.style.display = 'flex';
       }
     });
   });

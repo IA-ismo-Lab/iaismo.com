@@ -705,3 +705,105 @@ blockquote {
   border: none;
   padding: 0;
 }
+
+/* ═══════════════════════════════════════════════════════════
+   MODAL PARA PROMPTS
+   ═══════════════════════════════════════════════════════════ */
+
+.prompt-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.prompt-modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(2px);
+}
+
+.prompt-modal-content {
+  position: relative;
+  background: var(--gris-oscuro);
+  border: 1px solid var(--gris-medio);
+  border-radius: 8px;
+  width: 90%;
+  max-width: 800px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  font-family: var(--fuente-mono);
+}
+
+.prompt-modal-header {
+  background: var(--gris-medio);
+  padding: 0.75rem 1rem;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--gris-medio);
+}
+
+.prompt-modal-title {
+  color: var(--acento);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.prompt-modal-close {
+  background: none;
+  border: none;
+  color: var(--acento);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.prompt-modal-close:hover {
+  background: rgba(0, 255, 0, 0.1);
+}
+
+.prompt-modal-body {
+  padding: 1.5rem;
+  background: var(--negro);
+  border-radius: 0 0 8px 8px;
+}
+
+.prompt-modal-body h3 {
+  color: var(--acento);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--acento);
+  padding-bottom: 0.5rem;
+}
+
+.prompt-modal-body pre {
+  color: var(--blanco);
+  font-family: var(--fuente-mono);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
