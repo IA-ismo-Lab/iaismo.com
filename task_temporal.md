@@ -2,7 +2,7 @@
 **Fecha:** 19 Noviembre 2025
 **Estado:** DEPLOYMENT COMPLETADO ✅
 **Revisión IA Colaboradora:** ✅ Recibida y analizada
-**Último Deployment:** ✅ Subido a producción (corrección perfil técnico)
+**Último Deployment:** ✅ Subido a producción (nueva narrativa filosófica)
 
 ## 📋 Lista de Tareas Prioritarias
 
@@ -24,6 +24,8 @@
   - [x] **CORREGIDO:** Enfoque técnico en desarrollo IA, no cultural/experimental
   - [x] **CORREGIDO:** Credenciales académicas reales (Master IA, profesora Universidad Jaén)
   - [x] **ELIMINADO:** "Jefa Humana" y referencias a investigación filosófica
+  - [x] **ACTUALIZADO:** Nueva narrativa - integración con contenido latente, colaboración genuina
+  - [x] **AÑADIDO:** Groq AI especializado en sprints de desarrollo
   - [x] **DEPLOYMENT:** Cambios subidos a producción
 - [x] **Crear sección "Cómo Trabajamos"**
   - [x] Metodología de investigación híbrida humano-IA
