@@ -652,3 +652,50 @@ blockquote {
 #video-modal-body strong {
   color: var(--acento);
 }
+
+/* Prompt Link */
+.prompt-link {
+  display: inline-block;
+  color: var(--acento);
+  text-decoration: none;
+  font-family: var(--fuente-mono);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--acento);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.prompt-link:hover {
+  background-color: var(--acento);
+  color: var(--negro);
+}
+
+/* Video Details */
+.video-details {
+  display: none;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--gris-oscuro);
+  border: 1px solid var(--gris-medio);
+  border-radius: 8px;
+  font-family: var(--fuente-mono);
+  font-size: 0.85rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  color: var(--gris-claro);
+}
+
+.video-details h3 {
+  color: var(--acento);
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.video-details pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+  margin: 0;
+}

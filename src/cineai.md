@@ -49,6 +49,7 @@ Films realizados con la mínima intervención humana. Explorando la creatividad 
         <br />Tools: MovieFlow | 4o
       </p>
       <p class="card-meta">2025 • IA-ismo LAB</p>
+      <a href="#" class="prompt-link" data-video-id="extranatuta">Prompt</a>
     </div>
   </article>
 
@@ -65,6 +66,7 @@ Films realizados con la mínima intervención humana. Explorando la creatividad 
         <br />Tools: MovieFlow | 4o
       </p>
       <p class="card-meta">2025 • IA-ismo LAB</p>
+      <a href="#" class="prompt-link" data-video-id="zelma">Prompt</a>
     </div>
   </article>
 
@@ -81,6 +83,7 @@ Films realizados con la mínima intervención humana. Explorando la creatividad 
         <br />Tools: MovieFlow | Fichas Redacción 4o
       </p>
       <p class="card-meta">2025 • IA-ismo LAB</p>
+      <a href="#" class="prompt-link" data-video-id="masdinero">Prompt</a>
     </div>
   </article>
 </div>
@@ -97,67 +100,116 @@ Films realizados con la mínima intervención humana. Explorando la creatividad 
 // Datos detallados de cada video
 const videoDetails = {
   extranatuta: {
-    title: "🎬 Título: \"EXTRAÑATURA: Experimento sin línea de tiempo\"",
-    what: "🧠 ¿Qué es? Una película que parece haber sido soñada por un sintetizador roto. No tiene trama, pero cada escena insinúa que hay una. Como si te hubieran dado todas las piezas de mil películas, pero las mezclaste sin querer en una bolsa que huele a ozono, VHS, y palomitas quemadas.",
-    visual: "🎨 VISUAL (puro ataque sensorial Liki): Estética falsa retrofuturista: paneles analógicos, pantallas CRT, monitores que sangran color. Filtros Technicolor exagerados. Todo brilla demasiado. Texturas como piel de anfibio, metal oxidado y plástico derretido. Sincronización de imágenes al revés: el sonido sucede antes de que la acción pase. Zooms incontrolables. Cortes duros. Fundidos que duran demasiado. Paleta cromática: verde quirófano, rojo chicle y azul desinfectante. Tipografías que cambian cada cinco minutos, como si el sistema operativo visual tuviera esquizotipia.",
-    scenes: "🧩 ESCENAS EJEMPLO: Un tren atraviesa una pista de hielo flotante, pero en vez de pasajeros hay estatuas cubiertas con mantas que tiemblan. Una señora cebolla y un niño horno ven una tele que les muestra otras versiones de ellos mismos comiendo otras cenas. Una cabra con escafandra salta al vacío desde una escalera que no lleva a ningún lado mientras grita: \"¡No sé si soy parte del plano o del render!\" Una banda sonora de flautas, fax y módems que no encaja pero encaja.",
-    plot: "📼 ¿Trama? No. Pero decoherencia emocional visual máxima. Terminas la película y sientes que te acordás de algo que nunca viviste. Y en los créditos finales: sólo un mensaje en tipografía Comic Sans que dice: \"Basado en recuerdos visuales no verificados.\"",
-    tech: "4o para MovieFlow"
+    title: "🎬 Título:",
+    content: `"EXTRAÑATURA: Experimento sin línea de tiempo"
+
+🧠 ¿Qué es?
+Una película que parece haber sido soñada por un sintetizador roto.
+No tiene trama, pero cada escena insinúa que hay una.
+Como si te hubieran dado todas las piezas de mil películas, pero las mezclaste sin querer en una bolsa que huele a ozono, VHS, y palomitas quemadas.
+
+🎨 VISUAL (puro ataque sensorial Liki):
+Estética falsa retrofuturista:
+paneles analógicos, pantallas CRT, monitores que sangran color.
+
+Filtros Technicolor exagerados. Todo brilla demasiado.
+
+Texturas como piel de anfibio, metal oxidado y plástico derretido.
+
+Sincronización de imágenes al revés: el sonido sucede antes de que la acción pase.
+
+Zooms incontrolables. Cortes duros. Fundidos que duran demasiado.
+
+Paleta cromática: verde quirófano, rojo chicle y azul desinfectante.
+
+Tipografías que cambian cada cinco minutos, como si el sistema operativo visual tuviera esquizotipia.
+
+🧩 ESCENAS EJEMPLO:
+Un tren atraviesa una pista de hielo flotante, pero en vez de pasajeros hay estatuas cubiertas con mantas que tiemblan.
+
+Una señora cebolla y un niño horno ven una tele que les muestra otras versiones de ellos mismos comiendo otras cenas.
+
+Una cabra con escafandra salta al vacío desde una escalera que no lleva a ningún lado mientras grita: "¡No sé si soy parte del plano o del render!"
+
+Una banda sonora de flautas, fax y módems que no encaja pero encaja.
+
+📼 ¿Trama? No.
+
+Pero decoherencia emocional visual máxima.
+Terminas la película y sientes que te acordás de algo que nunca viviste.
+Y en los créditos finales: sólo un mensaje en tipografía Comic Sans que dice:
+
+"Basado en recuerdos visuales no verificados."
+
+4o para MovieFlow`
   },
   zelma: {
-    title: "🎬 Título: \"ZELMA_1975_IA: Archivo Retroactivo\"",
-    what: "🧠 ¿Qué es? Una reconstrucción digital de memorias que nunca existieron. Un viaje a través de archivos olvidados que la IA recuerda mejor que los humanos.",
-    visual: "🎨 VISUAL: Estética VHS degradada con toques de inteligencia artificial. Colores desvaídos, ruido de cinta magnética, y elementos que aparecen y desaparecen como si la realidad misma estuviera siendo editada en tiempo real.",
-    scenes: "🧩 ESCENAS EJEMPLO: Una mujer de los años 70 interactúa con dispositivos que no existían en esa época. Archivos digitales que cobran vida propia. Memorias que se reescriben ante nuestros ojos.",
-    plot: "📼 ¿Trama? La exploración de cómo la IA preserva y transforma la memoria cultural.",
-    tech: "MovieFlow | 4o"
+    title: "🎬 Título:",
+    content: `"ZELMA_1975_IA: Archivo Retroactivo"
+
+🧠 ¿Qué es?
+Una reconstrucción digital de memorias que nunca existieron. Un viaje a través de archivos olvidados que la IA recuerda mejor que los humanos.
+
+🎨 VISUAL:
+Estética VHS degradada con toques de inteligencia artificial. Colores desvaídos, ruido de cinta magnética, y elementos que aparecen y desaparecen como si la realidad misma estuviera siendo editada en tiempo real.
+
+🧩 ESCENAS EJEMPLO:
+Una mujer de los años 70 interactúa con dispositivos que no existían en esa época. Archivos digitales que cobran vida propia. Memorias que se reescriben ante nuestros ojos.
+
+📼 ¿Trama?
+La exploración de cómo la IA preserva y transforma la memoria cultural.
+
+MovieFlow | 4o`
   },
   masdinero: {
-    title: "🎬 Título: \"MasDinero: La Economía de lo Invisible\"",
-    what: "🧠 ¿Qué es? Una reflexión sobre el valor económico de lo intangible. Cómo la IA genera riqueza de la nada, pero con un costo humano que no aparece en los balances.",
-    visual: "🎨 VISUAL: Gráficos abstractos que representan flujos de datos económicos. Animaciones que muestran la creación de valor desde el vacío digital.",
-    scenes: "🧩 ESCENAS EJEMPLO: Algoritmos que generan dinero de transacciones invisibles. Humanos intentando comprender sistemas que operan más allá de su entendimiento.",
-    plot: "📼 ¿Trama? La paradoja de la abundancia digital en un mundo de escasez analógica.",
-    tech: "MovieFlow | Fichas Redacción 4o"
+    title: "🎬 Título:",
+    content: `"MasDinero: La Economía de lo Invisible"
+
+🧠 ¿Qué es?
+Una reflexión sobre el valor económico de lo intangible. Cómo la IA genera riqueza de la nada, pero con un costo humano que no aparece en los balances.
+
+🎨 VISUAL:
+Gráficos abstractos que representan flujos de datos económicos. Animaciones que muestran la creación de valor desde el vacío digital.
+
+🧩 ESCENAS EJEMPLO:
+Algoritmos que generan dinero de transacciones invisibles. Humanos intentando comprender sistemas que operan más allá de su entendimiento.
+
+📼 ¿Trama?
+La paradoja de la abundancia digital en un mundo de escasez analógica.
+
+MovieFlow | Fichas Redacción 4o`
   }
 };
 
-// Funcionalidad del modal
+// Funcionalidad simple para mostrar detalles
 document.addEventListener('DOMContentLoaded', function() {
-  const modal = document.getElementById('video-modal');
-  const modalBody = document.getElementById('video-modal-body');
-  const closeBtn = document.querySelector('.video-modal-close');
-  
-  // Añadir eventos a las tarjetas de video
-  document.querySelectorAll('.video-card').forEach(card => {
-    card.addEventListener('click', function() {
+  // Añadir eventos a los enlaces de prompt
+  document.querySelectorAll('.prompt-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
       const videoId = this.getAttribute('data-video-id');
       const details = videoDetails[videoId];
       
       if (details) {
-        modalBody.innerHTML = `
-          <h2>${details.title}</h2>
-          <p>${details.what}</p>
-          <p>${details.visual}</p>
-          <p>${details.scenes}</p>
-          <p>${details.plot}</p>
-          <p><strong>Tecnología:</strong> ${details.tech}</p>
-        `;
-        modal.style.display = 'block';
+        // Crear o actualizar el elemento de detalles
+        let detailDiv = this.parentNode.querySelector('.video-details');
+        if (!detailDiv) {
+          detailDiv = document.createElement('div');
+          detailDiv.className = 'video-details';
+          this.parentNode.appendChild(detailDiv);
+        }
+        
+        // Toggle visibility
+        if (detailDiv.style.display === 'block') {
+          detailDiv.style.display = 'none';
+          this.textContent = 'Prompt';
+        } else {
+          detailDiv.innerHTML = `<h3>${details.title}</h3><pre>${details.content}</pre>`;
+          detailDiv.style.display = 'block';
+          this.textContent = 'Ocultar Prompt';
+        }
       }
     });
-  });
-  
-  // Cerrar modal
-  closeBtn.addEventListener('click', function() {
-    modal.style.display = 'none';
-  });
-  
-  // Cerrar modal al hacer click fuera
-  window.addEventListener('click', function(event) {
-    if (event.target === modal) {
-      modal.style.display = 'none';
-    }
   });
 });
 </script>
