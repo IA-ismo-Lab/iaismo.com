@@ -213,6 +213,20 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
   font-family: var(--fuente-mono);
   margin-left: 0.25rem;
 }
+
+.project-link-small {
+  color: var(--acento);
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--fuente-mono);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+.project-link-small:hover {
+  text-decoration: underline;
+}
 </style>
 
 # IA-ismo LAB . Research IA.
@@ -255,6 +269,7 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
         <span class="project-tag">web app</span>
       </h3>
       <p class="card-excerpt">Visualizador en tiempo real de incendios forestales con Python FastAPI y Cesium.</p>
+      <a href="https://github.com/IA-ismo-Lab/fire-viewer" class="project-link-small">→ Ver en GitHub</a>
     </div>
   </article>
 
@@ -266,6 +281,7 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
         <span class="project-tag">codigo</span>
       </h3>
       <p class="card-excerpt">Sistema zero-shot para clonación de voz en español.</p>
+      <a href="https://github.com/IA-ismo-Lab/VoiceClone-AI-Spanish" class="project-link-small">→ Ver en GitHub</a>
     </div>
   </article>
 
@@ -277,6 +293,7 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
         <span class="project-tag">codigo</span>
       </h3>
       <p class="card-excerpt">Traductor de contenido impulsado por IA.</p>
+      <a href="https://github.com/IA-ismo-Lab/Castellanator" class="project-link-small">→ Ver en GitHub</a>
     </div>
   </article>
 </div>
@@ -284,43 +301,6 @@ description: Laboratorio de pensamiento crítico en la intersección entre intel
 <p style="text-align: center; margin: 1rem 0 2rem 0;">
   <a href="{{ '/proyectos' | url }}" style="font-family: var(--fuente-mono); color: var(--acento);">→ Ver todos los proyectos</a>
 </p>
-
-## 💻 Código
-
-<div class="cards-grid">
-  <article class="card project-card-small">
-    <div class="project-icon-small">🔥</div>
-    <div class="card-content">
-      <h3 class="card-title-small">
-        <a href="https://github.com/IA-ismo-Lab/fire-viewer">Fire Viewer</a>
-        <span class="project-tag-small">web app</span>
-      </h3>
-      <p class="card-excerpt-small">Visualizador de incendios en tiempo real</p>
-    </div>
-  </article>
-
-  <article class="card project-card-small">
-    <div class="project-icon-small">🎙️</div>
-    <div class="card-content">
-      <h3 class="card-title-small">
-        <a href="https://github.com/IA-ismo-Lab/VoiceClone-AI-Spanish">VoiceClone AI</a>
-        <span class="project-tag-small">codigo</span>
-      </h3>
-      <p class="card-excerpt-small">Clonación de voz zero-shot español</p>
-    </div>
-  </article>
-
-  <article class="card project-card-small">
-    <div class="project-icon-small">🎧</div>
-    <div class="card-content">
-      <h3 class="card-title-small">
-        <a href="https://github.com/IA-ismo-Lab/Castellanator">Castellanator</a>
-        <span class="project-tag-small">codigo</span>
-      </h3>
-      <p class="card-excerpt-small">Traductor IA-powered</p>
-    </div>
-  </article>
-</div>
 
 ## Destacado: CineAI Experimental
 
