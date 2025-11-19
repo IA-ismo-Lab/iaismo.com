@@ -54,7 +54,10 @@ Para añadir imágenes, colócalas en `/src/images/` y referéncialas así:
 Ejemplo de figura con caption:
 
 <figure>
-  <img src="/images/ejemplo-placeholder.jpg" alt="Placeholder" style="background: #2a2a2a; padding: 2rem; text-align: center;">
+<figure>
+  <img src="/images/ejemplo-placeholder.jpg" alt="Imagen de placeholder - ejemplo de contenido visual en artículo de IA-ismo LAB" style="background: #2a2a2a; padding: 2rem; text-align: center;">
+  <figcaption>Esta es una imagen de ejemplo con descripción.</figcaption>
+</figure>
   <figcaption>Esta es una imagen de ejemplo con descripción.</figcaption>
 </figure>
 

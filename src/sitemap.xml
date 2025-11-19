@@ -10,6 +10,18 @@
     <loc>https://www.iaismo.com/about/</loc>
     <lastmod>2025-11-19</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.iaismo.com/como-trabajamos/</loc>
+    <lastmod>2025-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.iaismo.com/como-colaborar/</loc>
+    <lastmod>2025-11-19</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>

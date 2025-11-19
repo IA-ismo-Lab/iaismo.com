@@ -12,9 +12,9 @@ Archivo completo del pensamiento IAista. Filosofía, crítica, neologismos y exc
 {%- for post in collections.posts -%}
   <article class="card">
     {% if post.data.image %}
-    <img src="{{ post.data.image | url }}" alt="{{ post.data.title }}" class="card-image">
+    <img src="{{ post.data.image | url }}" alt="Imagen destacada del artículo: {{ post.data.title }}" class="card-image">
     {% else %}
-    <div class="card-image" style="display: flex; align-items: center; justify-content: center; background: var(--gris-medio); color: var(--acento); font-family: var(--fuente-mono); font-size: 3rem;">⚠️</div>
+    <div class="card-image" style="display: flex; align-items: center; justify-content: center; background: var(--gris-medio); color: var(--acento); font-family: var(--fuente-mono); font-size: 3rem;" role="img" aria-label="Imagen no disponible - artículo sin imagen destacada">⚠️</div>
     {% endif %}
     <div class="card-content">
       <h2 class="card-title">
