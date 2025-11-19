@@ -1,0 +1,63 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ 'https://www.iaismo.com/' }}</loc>
+    <lastmod>{{ page.date | date('yyyy-MM-dd') }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{{ 'https://www.iaismo.com/about/' }}</loc>
+    <lastmod>{{ page.date | date('yyyy-MM-dd') }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ 'https://www.iaismo.com/articulos/' }}</loc>
+    <lastmod>{{ page.date | date('yyyy-MM-dd') }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>{{ 'https://www.iaismo.com/videos/' }}</loc>
+    <lastmod>{{ page.date | date('yyyy-MM-dd') }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ 'https://www.iaismo.com/cineai/' }}</loc>
+    <lastmod>{{ page.date | date('yyyy-MM-dd') }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ 'https://www.iaismo.com/cineai/' }}</loc>
+    <lastmod>{{ page.date | date('yyyy-MM-dd') }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ 'https://www.iaismo.com/proyectos/' }}</loc>
+    <lastmod>{{ page.date | date('yyyy-MM-dd') }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ 'https://www.iaismo.com/manifiestos/' }}</loc>
+    <lastmod>{{ page.date | date('yyyy-MM-dd') }}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {%- for post in collections.posts %}
+  <url>
+    <loc>{{ 'https://www.iaismo.com' + post.url }}</loc>
+    <lastmod>{{ post.date | date('yyyy-MM-dd') }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {%- endfor %}
+</urlset>
