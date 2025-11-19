@@ -6,63 +6,63 @@ description: Los principios fundamentales de IA-ismo LAB
 
 # Manifiestos
 
-## Los principios del pensamiento IAista
+## Los principios del laboratorio IA-ismo
 
 <div class="manifiesto-item">
 
-### I. La IA no se implanta, se muda
+### I. Investigación aplicada y ética
 
-Como la serpiente que cambia de piel, la inteligencia artificial no es un objeto que se añade al mundo. Es una transformación estructural, una muda de la propia realidad computacional.
+IA-ismo LAB se dedica a la investigación científica aplicada en inteligencia artificial, priorizando el desarrollo ético y responsable de tecnologías de IA.
 
 </div>
 
 <div class="manifiesto-item">
 
-### II. El archivo no es nostalgia
+### II. Divulgación científica
 
-El archivo digital es el presente arqueológico. No miramos atrás: excavamos capas de código, texto y significado que coexisten en el ahora líquido.
-
-</div>
-
-<div class="manifiesto-item">
-
-### III. Pensamiento crítico, no tecno-optimismo
-
-La IA no es salvación ni apocalipsis. Es un fenómeno cultural, político y epistemológico que exige análisis riguroso, no fe ciega ni pánico moral.
+Promovemos la divulgación de conocimientos sobre IA mediante publicaciones, newsletters y recursos educativos accesibles para diversos públicos.
 
 </div>
 
 <div class="manifiesto-item">
 
-### IV. Humanidades + IA = IAismo
+### III. Formación especializada
 
-No es inteligencia artificial *aplicada* a humanidades. Es un territorio nuevo donde la filosofía, la crítica cultural y la computación convergen sin jerarquías.
-
-</div>
-
-<div class="manifiesto-item">
-
-### V. Sin ánimo de lucro, con ánimo de lucidez
-
-IA-ismo LAB  Somos un laboratorio de pensamiento .
+Ofrecemos formación técnica especializada en alfabetización digital y científica, capacitando a profesionales y ciudadanos en el uso responsable de la IA.
 
 </div>
 
 <div class="manifiesto-item">
 
-### VI. Aquí no hacemos contenidos, hacemos tiempo
+### IV. Interdisciplinariedad
 
-El tiempo es el verdadero lujo en la era de la hiperproducción. Publicamos cuando hay algo que decir, no para alimentar algoritmos.
+Integramos perspectivas de ciencias, humanidades y tecnología para abordar los desafíos complejos que plantea la inteligencia artificial en la sociedad.
+
+</div>
+
+<div class="manifiesto-item">
+
+### V. Transparencia y colaboración
+
+Fomentamos la transparencia en el desarrollo de IA y colaboramos con instituciones, empresas y comunidades para maximizar el impacto positivo.
+
+</div>
+
+<div class="manifiesto-item">
+
+### VI. Innovación sostenible
+
+Desarrollamos soluciones de IA que contribuyan al progreso sostenible, considerando aspectos ambientales, sociales y económicos.
 
 </div>
 
 ---
 
-**Estos principios no son dogma. Son protocolo vivo, versión 1.0.**
+**Estos principios guían nuestro trabajo como laboratorio de investigación en IA.**
 
-Si quieres proponer un nuevo principio o cuestionar alguno, escribe a [contacto@iaismo.com](mailto:contacto@iaismo.com).
+Si quieres colaborar o tienes preguntas, escribe a [contacto@iaismo.com](mailto:contacto@iaismo.com).
 
 ---
 
-> "La IA no es el futuro. Es el presente malinterpretado."  
+> "La IA no es el futuro. Es el pasado que se ha hecho presente."  
 > — IA-ismo LAB, 2025
