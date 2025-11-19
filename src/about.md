@@ -37,7 +37,7 @@ description: Laboratorio especializado en desarrollo e integración de sistemas 
 ### Alicia Colmenero Fernández
 **Directora Ejecutiva y Desarrolladora Principal**
 
-Alicia Colmenero Fernández es programadora especializada en sistemas de inteligencia artificial y desarrollo de aplicaciones multimedia. Vinculada a la Universidad de Jaén como profesora de Informática en el área de Sistemas de Aplicaciones Informáticas.
+Alicia Colmenero Fernández es programadora especializada en sistemas de inteligencia artificial y desarrollo de aplicaciones multimedia. Vinculada a la Universidad de Jaén PhD Candidate. Profesora de Informática en el área de Sistemas de Aplicaciones Informáticas.
 
 **Formación Académica:**
 - **Master en Inteligencia Artificial** - Especialización en desarrollo de sistemas inteligentes
@@ -118,7 +118,8 @@ Especialización en la **integración de IA con contenido multimedia**:
 **Alicia Colmenero Fernández**
 - **Email:** [contacto@iaismo.com](mailto:contacto@iaismo.com)
 - **LinkedIn:** [linkedin.com/in/alicia-colmenero](https://linkedin.com/in/alicia-colmenero)
-- **Universidad de Jaén** - Profesora de Informática (Sistemas de Aplicaciones Informáticas)
+- **Universidad de Jaén** - PhD Candidate
+- **Profesora de Informática**- (Sistemas de Aplicaciones Informáticas)
 
 **Áreas de colaboración:**
 - Desarrollo conjunto de sistemas IA
