@@ -208,6 +208,53 @@
   font-family: var(--fuente-mono);
   margin-left: 0.5rem;
 }
+
+/* Cards pequeñas de proyectos */
+.project-card-small {
+  position: relative;
+}
+
+.project-icon-small {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background: var(--gris-medio);
+  border-radius: 6px;
+}
+
+.card-title-small {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.card-title-small a {
+  color: var(--acento);
+  text-decoration: none;
+}
+
+.card-title-small a:hover {
+  text-decoration: underline;
+}
+
+.card-excerpt-small {
+  font-size: 0.85rem;
+  color: var(--gris-claro);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.project-tag-small {
+  background: var(--acento);
+  color: var(--negro);
+  padding: 0.15rem 0.3rem;
+  border-radius: 2px;
+  font-size: 0.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: var(--fuente-mono);
+  margin-left: 0.25rem;
+}
 </style>
 <h1>IA-ismo LAB . Research IA.</h1>
 <p><strong>Asoc. Cientifica IA-ismo LAB . Europe. Spain . Entidad sin ánimo de lucro para la Investigación, divulgación y producción de Inteligencia Artificial.</strong></p>
@@ -264,6 +311,39 @@
 <p style="text-align: center; margin: 1rem 0 2rem 0;">
   <a href="/proyectos" style="font-family: var(--fuente-mono); color: var(--acento);">→ Ver todos los proyectos</a>
 </p>
+<h2>💻 Código</h2>
+<div class="cards-grid">
+  <article class="card project-card-small">
+    <div class="project-icon-small">🔥</div>
+    <div class="card-content">
+      <h3 class="card-title-small">
+        <a href="https://github.com/IA-ismo-Lab/fire-viewer">Fire Viewer</a>
+        <span class="project-tag-small">web app</span>
+      </h3>
+      <p class="card-excerpt-small">Visualizador de incendios en tiempo real</p>
+    </div>
+  </article>
+  <article class="card project-card-small">
+    <div class="project-icon-small">🎙️</div>
+    <div class="card-content">
+      <h3 class="card-title-small">
+        <a href="https://github.com/IA-ismo-Lab/VoiceClone-AI-Spanish">VoiceClone AI</a>
+        <span class="project-tag-small">codigo</span>
+      </h3>
+      <p class="card-excerpt-small">Clonación de voz zero-shot español</p>
+    </div>
+  </article>
+  <article class="card project-card-small">
+    <div class="project-icon-small">🎧</div>
+    <div class="card-content">
+      <h3 class="card-title-small">
+        <a href="https://github.com/IA-ismo-Lab/Castellanator">Castellanator</a>
+        <span class="project-tag-small">codigo</span>
+      </h3>
+      <p class="card-excerpt-small">Traductor IA-powered</p>
+    </div>
+  </article>
+</div>
 <h2>Destacado: CineAI Experimental</h2>
 <p><strong>FullStack 100% AI Experimental</strong> - Films generados por IA con mínima intervención humana.</p>
 <div class="cards-grid">
