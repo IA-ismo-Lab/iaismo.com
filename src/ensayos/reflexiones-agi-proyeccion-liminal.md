@@ -51,7 +51,8 @@ tags: [filosofia, ia, agi, pensamiento-critico]
 
 <div class="essay-meta">
   <p><strong>Publicado:</strong> 21 de noviembre de 2025</p>
-  <p><strong>Autor:</strong> IA-ismo LAB</p>
+  <p><strong>Autor:</strong> Alicia Colmenero Fernández</p>
+  <p><strong>Entidad:</strong> IA-ismo LAB</p>
   <p><strong>Temas:</strong> Filosofía • IA • AGI • Pensamiento Crítico</p>
 </div>
 
@@ -85,5 +86,12 @@ tags: [filosofia, ia, agi, pensamiento-critico]
 
 ---
 
-> "La proyección liminal es el único estado verdaderamente mágico que conocemos como humanos."</content>
+<p style="text-align: center; font-style: italic; margin-top: 2rem; color: var(--gris-claro);">
+Alicia Colmenero Fernández<br>
+by IA-ismo LAB
+</p>
+
+---
+
+> "La proyección liminal es el único estado verdaderamente mágico que conocemos como humanos."
 <parameter name="filePath">c:\Users\USUARIO\Base\_dev\IA-ISMO_LAB_WEB\GITHUB\iaismo.com\src\ensayos\reflexiones-agi-proyeccion-liminal.md
