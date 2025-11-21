@@ -34,7 +34,7 @@ tags: [filosofia, ia, agi, pensamiento-critico]
   margin-bottom: 3rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--gris-medio);
-  color: var(--gris-medio);
+  color: var(--gris-claro);
   font-family: var(--fuente-mono);
 }
 
