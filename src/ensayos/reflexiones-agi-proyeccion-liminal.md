@@ -38,6 +38,10 @@ tags: [filosofia, ia, agi, pensamiento-critico]
   font-family: var(--fuente-mono);
 }
 
+.essay-meta p {
+  color: var(--blanco) !important;
+}
+
 .essay-image {
   width: 100%;
   max-width: 600px;
@@ -94,4 +98,3 @@ by IA-ismo LAB
 ---
 
 > "La proyección liminal es el único estado verdaderamente mágico que conocemos como humanos."
-<parameter name="filePath">c:\Users\USUARIO\Base\_dev\IA-ISMO_LAB_WEB\GITHUB\iaismo.com\src\ensayos\reflexiones-agi-proyeccion-liminal.md
