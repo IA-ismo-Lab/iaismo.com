@@ -23,6 +23,13 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  // Crear colección de ensayos ordenados por fecha (más recientes primero)
+  eleventyConfig.addCollection("essays", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/ensayos/*.md").sort((a, b) => {
+      return b.date - a.date;
+    });
+  });
+
   return {
     dir: {
       input: "src",
